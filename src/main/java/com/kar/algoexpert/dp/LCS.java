@@ -7,7 +7,7 @@ public class LCS {
         String s1 = "abcd";
         String s2 = "acd";
 
-        System.out.println(lcs(s1, s2));
+        System.out.println("Longest Common Subsequence: " + lcs(s1, s2));
     }
 
     private static String lcs(String s1, String s2) {
